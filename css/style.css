@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.panel-heading a i {
+    margin-right: 10px;
+}
+
+.panel-heading a {
+    background-color: #0084FF;
+    color: #ffffff;
+    display: block;
+    padding: 10px 40px 10px 15px;
+    position: relative;
+    transition: all 0.5s;
+    text-transform: uppercase;
+}
+
+.panel-heading a::after {
+    content: "\f107";
+    font-family: "FontAwesome";
+    position: absolute;
+    right: 15px;
+    transition: all 0.5s;
+}
+
+.panel-heading.in a::after {
+    transform: rotate(180deg);
+}
+
+.panel-heading.in a {
+    background-color: #4aa145;
+    color: #ffffff;
+}
+
+.panel-heading.in a::after {
+    color: #ffffff;
+    transition: all 0.5s;
+}
+
+.panel-collapse {
+    display: none;
+    padding: 20px;
+}
+
+.panel-collapse.in {
+    display: block;
+}
+
+.panel-heading {
+    margin-top: 5px;
+}
+
+.section-image {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.section-image._active {
+    opacity: 1;
+}
+
+.description__header {
+    text-align: center;
+}
+
+.descritpion__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.descritpion__content img {
+    width: 400px;
+    height: 400px;
+}
+
+.second-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: nowrap;
+}
+
+.second-section img {
+    width: 300px;
+    height: 300px;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: nowrap;
+}
+
+.first-row img {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+}
+
+.second-row img {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+}
+.third-row img {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+}
+.fourth-row img {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+}
+
+.fifth-row img {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+}
+.six-row img {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+}
